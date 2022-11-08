@@ -6,6 +6,8 @@
 
 body {
     background-color: #d9dcd6;
+    height: 100%;
+    justify-content: space-evenly;
 }
 
 header {
@@ -46,17 +48,61 @@ header nav a:hover{
 }
 
 aside{
-    width: 20%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    font-size: 20px;
+    text-decoration: underline #2a607c 5px;
+    padding: 0px 20px;
+    width: fit-content;
     height: 100%;
     float: left;
-    clear: top;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2a607c;
+    background-color: bisque;
+    justify-content: space-evenly;
 }
 
 section{
-    display: inline-block;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.aboutme{
+    display: flex;
+    position: static;
+    float: right;
+    flex-wrap: wrap;
     width: 75%;
     height: 100%;
     margin-right: 20px;
+    justify-content: space-evenly;
+}
+
+.work{
+    display: flex;
+    position: sticky;
+    float: right;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    height: 100%;
+}
+
+article{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+
+}
+
+figure img{
+    background-color: #eee;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
 }
