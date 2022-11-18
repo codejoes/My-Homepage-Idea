@@ -1,57 +1,96 @@
 <!DOCTYPE html>
 
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Joseph Sell - Portfolio</title>
+    <title>Joseph's Portfolio</title>
 </head>
 
 <body>
-    <!--Header With Navbar-->
-    <header>
-        <h1>Jos<span class="eph">eph</span> Sell's <span class="portfolio">Portfolio</span></h1>
-        <nav>
-                <a href="#" target="_blank">About Me</a>
-                <a href="#" target="_blank">Work</a>
-                <a href="#" target="_blank">Contact Me</a>
-                <a href="#" target="_blank">Resume</a>
-        </nav>
+    <!-- Begin Header w/ Navbar -->
+    <header class="header">
+        <h1 class="header-name">Jos<span class="new-color">eph Sel</span>l's Port<span class="new-color">folio</span></h1>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <!-- Will Add Resume At Later Date -->
+            <li><a href="#">Resume</a></li>
+        </ul>
     </header>
-    <figure class="banner"></figure>
 
-    <!--Left-Oriented Sidebar For Section Headers-->
-    <aside>
-        <h1>About Me</h1>
-        <h1>Work</h1>
-        <h1>Contact Me</h1>
-    </aside>
+    <!-- Personality Banner Image -->
+    <figure class="banner-image">
+        <img src="./assets/images/banner-web-one-piece.png" alt="One Piece Banner">
+        <div class="subtitle">
+            <h2>"Gomu-Gomu-No Coding!"</h2>
+        </div>
+    </figure>
 
-    <!--About Me Section With Text Only-->
-    <section class="aboutme">
-        <article>
-            This will be the about me section.
+    <!-- Section That Contains Required Functionality: About Me w/ Text,
+    Work w/ Highlightable Images, and Contact Me w/ Links -->
+
+    <section>
+        <article class="about-me" id="about-me">
+            <aside class="sidebar-header"><h2>About Me</h2></aside>
+            <ul>
+                <li>I am a soon to be retired Army officer, former Pennsylvania native, and current resident of Washington, DC. I am focused on  developing my techinical acumen to become a javascript-enabled fullstack developer.</li>
+                <li>In my freetime I like to enjoy videogames like Halo, Apex Legends, or Rocket League with friends, watching anime shows like One Piece, Spy x Family, or Hunter x Hunter, and playing disc golf, pickleball, and tennis.</li>
+            </ul>
         </article>
-    </section class="work">
 
-    <!--Work Section With Highlighted Images-->
-    <section class="work">
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
+        <!-- Image Links Currently Only Re-direct to GitHub, Links Will Be Updated When Projects Are Completed -->
+        <article class="work" id="work">
+            <aside class="sidebar-header"><h2>Work</h2></aside>
+            <figure class="work-images">
+                <div>
+                    <div class="card">
+                        <h3>Password Generator<br>HTML/CSS/JavaScript</h3>
+                        <a href="https://github.com/codejoes" target="_blank"><img src="./assets/images/password-generator.svg" alt="Project 1 Background Image"></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <h3>Coding Quiz<br>HTML/CSS/JavaScript</h3>
+                        <a href="https://github.com/codejoes" target="_blank"><img src="./assets/images/timed-quiz.jpg" alt="Project 2 Background Image"></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <h2>Coming<br>Soon!</h2>
+                        <a href="https://github.com/codejoes" target="_blank"><img src="./assets/images/stay-tuned-square-edited.jpg" alt="Project 3 Background Image"></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <h2>Coming<br>Soon!</h2>
+                        <a href="https://github.com/codejoes" target="_blank"><img src="./assets/images/stay-tuned-square-edited.jpg" alt="Project 4 Background Image"></a>
+                    </div>
+                </div>
+            </figure>
+        </article>
+
+        <!-- Begin Contact Info w/ Fake Number For Now and No Actual LinkedIn -->
+        <article class="contact-me" id="contact-me">
+            <aside class="sidebar-header"><h2>Contact Me</h2></aside>
+            <ul>
+                <li>555.555.5555</li>
+                <li><a href="mailto:josephscodes@gmail.com" target="_blank">josephscodes@gmail.com</a></li>
+                <li><a href="https://github.com/codejoes" target="_blank">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </article>
     </section>
 
-    <footer>
+    <!-- Footer w/ Copyright <3 -->
+<footer>
+    <h2><span>&copy</span>Joseph Sell -- Made With <span>&#128151</span>, CSS, and HTML</h2>
+</footer>
 
-    </footer>
 </body>
-
 </html>
