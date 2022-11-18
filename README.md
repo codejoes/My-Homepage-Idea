@@ -13,8 +13,8 @@ N/A
 ## Usage
 This webpage contains HTML and CSS contains highlightable text and images, as well as clickable links. Some links and functions have not been added yet, but are meant to be added in the future. Functionality has been added to help tablet viewers, but additional functionality needs to be added for mobile viewers.
 
-![Screenshot of Website]()
-[Website Link]()
+![Screenshot of Website](./assets/images/website-screenshot.png)
+[Website Link](https://codejoes.github.io/My-Homepage-Idea/)
 
 ## Credits
 
